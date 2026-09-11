@@ -1,0 +1,36 @@
+{
+  "name": "@stanzaapi/cbam-carbon",
+  "version": "1.0.0",
+  "description": "Official zero-dependency, high-speed JavaScript/TypeScript client for EU CBAM & Carbon Tax Calculation Engine",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "keywords": [
+    "cbam",
+    "carbon-tax",
+    "eu-ets",
+    "embedded-emissions",
+    "scope-1",
+    "scope-2",
+    "carbon-border-tax",
+    "regulation-2023-956",
+    "customs-compliance"
+  ],
+  "author": "Stanza",
+  "license": "MIT",
+  "homepage": "https://stanzaapi.com/tools/cbam-carbon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanzaAPI/cbam-carbon-typescript.git"
+  }
+}
